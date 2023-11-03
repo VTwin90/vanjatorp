@@ -28,7 +28,11 @@ import figma from './tech/figma.png';
 
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
+import portfolio from './projects/portfolio.png';
+import unperfectdate from './projects/unperfectdate.png';
+import vgames from './projects/vgames.png';
+import xelor from './projects/xelor.png';
+import womxn from './projects/womxn.png';
 
 export {
   bwmap,
@@ -53,6 +57,10 @@ export {
   send,
   sendHover,
   figma,
-  komikult,
+  portfolio,
+  unperfectdate,
+  vgames,
+  xelor,
+  womxn,
   microverse,
 };

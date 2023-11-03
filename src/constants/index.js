@@ -4,7 +4,11 @@ import {
     ux,
     prototyping,
     figma,
-    komikult,
+    portfolio,
+    unperfectdate,
+    vgames,
+    womxn,
+    xelor,
     microverse,
   } from '../assets';
   
@@ -135,114 +139,118 @@ import {
   const projects = [
     {
       id: 'project-1',
-      name: 'KomiKult',
-      description: 'A comic characters list app that displays Marvel characters.',
+      name: 'Portfolio',
+      description: 'A personal portfolio website with just the use of HTML and CSS',
       tags: [
         {
-          name: 'react',
+          name: 'html',
           color: 'blue-text-gradient',
         },
         {
-          name: 'mongodb',
+          name: 'css',
           color: 'green-text-gradient',
         },
-        {
-          name: 'tailwind',
-          color: 'pink-text-gradient',
-        },
       ],
-      image: komikult,
-      repo: 'https://github.com/',
-      demo: 'https://github.com/',
+      image: portfolio,
+      repo: 'https://github.com/VTwin90/Milestone-1-Portfolio',
+      demo: 'https://vtwin90.github.io/Milestone-1-Portfolio/',
     },
     {
       id: 'project-2',
-      name: 'KomiKult',
+      name: 'The (Un)perfect Date',
       description:
-        'A comic characters list app that displays Marvel characters.',
+        'A visual novel game were your decisions have an impact on the story',
       tags: [
         {
-          name: 'react',
+          name: 'html',
           color: 'blue-text-gradient',
         },
         {
-          name: 'restapi',
+          name: 'css/bootstrap',
           color: 'green-text-gradient',
         },
         {
-          name: 'scss',
+          name: 'javascript',
           color: 'pink-text-gradient',
         },
       ],
-      image: komikult,
-      repo: 'https://github.com/',
-      demo: 'https://github.com/',
+      image: unperfectdate,
+      repo: 'https://github.com/VTwin90/UN-PERFECT-DATE',
+      demo: 'https://vtwin90.github.io/UN-PERFECT-DATE/',
     },
     {
       id: 'project-3',
-      name: 'KomiKult',
-      description: 'A comic characters list app that displays Marvel characters.',
+      name: 'VGames',
+      description: 'A platform for indie games to be showcased',
       tags: [
         {
-          name: 'nextjs',
+          name: 'html',
           color: 'blue-text-gradient',
         },
         {
-          name: 'supabase',
+          name: 'css/boostrap',
           color: 'green-text-gradient',
         },
         {
-          name: 'css',
+          name: 'javascript',
+          color: 'pink-text-gradient',
+        },
+        {
+          name: 'python',
           color: 'pink-text-gradient',
         },
       ],
-      image: komikult,
-      repo: 'https://github.com/',
-      demo: 'https://github.com/',
+      image: vgames,
+      repo: 'https://github.com/VTwin90/VGAMES',
+      demo: 'https://vgames-0i9m.onrender.com/',
     },
     {
       id: 'project-4',
-      name: 'KomiKult',
-      description: `A comic characters list app that displays Marvel characters.`,
+      name: 'Xelor',
+      description: `A ecommerce store for luxery watches`,
       tags: [
         {
-          name: 'nextjs',
+          name: 'html',
           color: 'blue-text-gradient',
         },
         {
-          name: 'supabase',
+          name: 'css/boostrap',
           color: 'green-text-gradient',
         },
         {
-          name: 'css',
+          name: 'javascript',
+          color: 'pink-text-gradient',
+        },
+        {
+          name: 'python',
           color: 'pink-text-gradient',
         },
       ],
-      image: komikult,
-      repo: 'https://github.com/',
-      demo: 'https://github.com/',
+      image: xelor,
+      repo: 'https://github.com/VTwin90/xelor',
+      demo: 'https://xelor-watches.onrender.com/',
     },
     {
       id: 'project-5',
-      name: 'KomiKult',
-      description: 'A comic characters list app that displays Marvel characters.',
+      name: 'Womxn',
+      description: 'A website for femmetech mentorships. women-in-tech Hackathon.',
       tags: [
         {
-          name: 'nextjs',
+          name: 'html',
           color: 'blue-text-gradient',
         },
         {
-          name: 'supabase',
+          name: 'css/boostrap',
           color: 'green-text-gradient',
         },
         {
-          name: 'css',
+          name: 'javascript',
           color: 'pink-text-gradient',
         },
       ],
-      image: komikult,
-      repo: 'https://github.com/',
-      demo: 'https://github.com/',
+      image: womxn,
+      repo: 'https://github.com/CarolinaCobo/womxn-femmetech-mentorship',
+      demo: 'https://carolinacobo.github.io/womxn-femmetech-mentorship/index.html',
     },
   ];
   
