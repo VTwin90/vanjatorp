@@ -25,15 +25,26 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Form validation
-  if (!form.name || !form.email || !form.message) {
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: 'Please fill in all fields before sending the form.',
-    });
-    return;
-  }
-  
+    if (!form.name || !form.email || !form.message) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Please fill in all fields before sending the form.',
+      });
+      return;
+    }
+
+    // Email format validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Please enter a valid email address.',
+      });
+      return;
+    }
+
     setLoading(true);
 
     // sign up on emailjs.com (select the gmail service and connect your account).
