@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
@@ -23,6 +24,16 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Form validation
+  if (!form.name || !form.email || !form.message) {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Please fill in all fields before sending the form.',
+    });
+    return;
+  }
+  
     setLoading(true);
 
     // sign up on emailjs.com (select the gmail service and connect your account).
@@ -43,7 +54,11 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          Swal.fire({
+            icon: 'success',
+            title: 'Thank you!',
+            text: 'I will get back to you as soon as possible.',
+          });
 
           setForm({
             name: '',
@@ -54,7 +69,11 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.log(error);
-          alert('Something went wrong. Please try again.');
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong. Please try again.',
+          });
         }
       );
   };
