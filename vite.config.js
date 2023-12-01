@@ -1,6 +1,3 @@
-import 'node:path';
-
-// vite.config.js
 const react = require('@vitejs/plugin-react');
 
 // https://vitejs.dev/config/
