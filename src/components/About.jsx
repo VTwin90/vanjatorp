@@ -36,12 +36,21 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+          <p className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+          I'm a versatile individual on a transformative journey into the dynamic world of technology with a passion for tech and a love for design. With a Bachelor's and Master's degree from the scenic landscapes of Scotland, I've cultivated a love for growth and developed the ability to thrive beyond my comfort zone. This foundation, although not technology-specific, forms the bedrock of my unique approach to problem-solving and innovation.
+          </p>
+
+          <p className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+            Armed with a Software Development Diploma from Code Institute, I master coding intricacies and infuse creativity into projects across frontend and backend development, as well as UX/UI design, business development, and project management.
+          </p>
+
+          <p className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+            In tech, I offer a unique blend of technical expertise and a collaborative mindset cultivated through diverse experiences. Challenges are opportunities for innovation, and my diverse background enriches team dynamics.
+          </p>
+
+          <p className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+            So are you ready to elevate your projects with a fresh approach? Let's exceed technology demands together. Reach out to start a conversation about how my skills can contribute to your team's success. Connect for a virtual coffee chat, project exploration, or to exchange ideas. Excited about the possibilities ahead!
+          </p>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
