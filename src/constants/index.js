@@ -157,9 +157,9 @@ import {
     },
     {
       id: 'project-2',
-      name: 'The (Un)perfect Date',
+      name: '(Un)perfect Date',
       description:
-        'A visual novel game were your decisions have an impact on the story',
+        'A visual novel game where your decisions have an impact',
       tags: [
         {
           name: 'html',
