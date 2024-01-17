@@ -16,8 +16,8 @@ import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
-import pineapple from './icons/pineapple.png';
-import pineappleHover from './icons/pineappleHover.png';
+import fox from './icons/fox.png';
+import foxHover from './icons/foxHover.png';
 import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
@@ -50,8 +50,8 @@ export {
   close,
   download,
   downloadHover,
-  pineapple,
-  pineappleHover,
+  fox,
+  foxHover,
   menu,
   resume,
   send,
