@@ -2,7 +2,7 @@ import {
     frontend,
     backend,
     ux,
-    prototyping,
+    creativity_resourcefulness,
     figma,
     html,
     css,
@@ -16,12 +16,16 @@ import {
     django,
     mongodb,
     flask,
+    adobe,
     portfolio,
     unperfectdate,
     vgames,
     womxn,
     xelor,
-    microverse,
+    infinity,
+    codeinstitute,
+    zerotomastery,
+    logo,
   } from '../assets';
   
   export const navLinks = [
@@ -53,8 +57,8 @@ import {
       icon: ux,
     },
     {
-      title: 'Software Prototyping',
-      icon: prototyping,
+      title: 'Creativity and Resourcefulness',
+      icon: creativity_resourcefulness,
     },
   ];
   
@@ -112,39 +116,39 @@ import {
       icon: figma,
     },
     {
-      name: 'figma',
-      icon: figma,
+      name: 'adobe',
+      icon: adobe,
     },
   ];
   
   const experiences = [
     {
-      title: 'Front-End Developer',
-      company_name: 'Microverse',
-      icon: microverse,
+      title: 'Fullstack Developer',
+      company_name: 'V Projects',
+      icon: logo,
       iconBg: '#333333',
-      date: 'Aug 2021 - Feb 2022',
+      date: 'Feb 2021 - Present',
     },
     {
-      title: 'Mentor (Volunteer)',
-      company_name: 'Microverse',
-      icon: microverse,
+      title: 'Software Development',
+      company_name: 'Code Institute',
+      icon: codeinstitute,
       iconBg: '#333333',
-      date: 'Mar 2022 - May 2022',
+      date: 'Feb 2021 - Mar 2022',
     },
     {
-      title: 'Junior Software Engineer',
-      company_name: 'Microverse',
-      icon: microverse,
+      title: 'Courses: The Complete Web Developer, Complete Web & Mobile Designer, and others',
+      company_name: 'Zero to Mastery',
+      icon: zerotomastery,
       iconBg: '#333333',
-      date: 'May 2022 - Oct 2022',
+      date: 'Mar 2020 - Present',
     },
     {
-      title: 'Full Stack Developer',
-      company_name: 'Microverse',
-      icon: microverse,
+      title: 'Customer Consultant, Events, Project & Brand Manager, Marketing, Hospitality, BA, MSc',
+      company_name: 'Diverse Organisations',
+      icon: infinity,
       iconBg: '#333333',
-      date: 'Sep 2022 - Present',
+      date: '2010 - Jan 2021',
     },
   ];
   

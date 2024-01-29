@@ -11,7 +11,7 @@ import vanja from './personal/vanja.png';
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
-import prototyping from './icons/prototyping.png';
+import creativity_resourcefulness from './icons/creativity_resourcefulness.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
@@ -36,9 +36,12 @@ import bootstrap from './tech/bootstrap.png';
 import django from './tech/django.png';
 import mongodb from './tech/mongodb.png';
 import flask from './tech/flask.png';
+import adobe from './tech/adobe.png';
 
 
-import microverse from './company/microverse.png';
+import infinity from './company/infinity.png';
+import codeinstitute from './company/codeinstitute.png';
+import zerotomastery from './company/zerotomastery.png';
 
 import portfolio from './projects/portfolio.png';
 import unperfectdate from './projects/unperfectdate.png';
@@ -57,7 +60,7 @@ export {
   backend,
   ux,
   frontend,
-  prototyping,
+  creativity_resourcefulness,
   github,
   close,
   download,
@@ -81,10 +84,13 @@ export {
   django,
   mongodb,
   flask,
+  adobe,
   portfolio,
   unperfectdate,
   vgames,
   xelor,
   womxn,
-  microverse,
+  infinity,
+  codeinstitute,
+  zerotomastery,
 };
