@@ -24,6 +24,18 @@ import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
 import figma from './tech/figma.png';
+import html from './tech/html.png';
+import css from './tech/css.png';
+import javascript from './tech/javascript.png';
+import python from './tech/python.png';
+import react from './tech/reactjs.png';
+import canva from './tech/canva.png';
+import git from './tech/git.png';
+import tailwind from './tech/tailwind.png';
+import bootstrap from './tech/bootstrap.png';
+import django from './tech/django.png';
+import mongodb from './tech/mongodb.png';
+import flask from './tech/flask.png';
 
 
 import microverse from './company/microverse.png';
@@ -57,6 +69,18 @@ export {
   send,
   sendHover,
   figma,
+  html,
+  css,
+  javascript,
+  python,
+  react,
+  canva,
+  git,
+  tailwind,
+  bootstrap,
+  django,
+  mongodb,
+  flask,
   portfolio,
   unperfectdate,
   vgames,
