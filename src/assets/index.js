@@ -49,6 +49,7 @@ import unperfectdate from './projects/unperfectdate.png';
 import vgames from './projects/vgames.png';
 import xelor from './projects/xelor.png';
 import womxn from './projects/womxn.png';
+import alexa from './projects/alexa.png';
 
 export {
   bwmap,
@@ -92,6 +93,7 @@ export {
   vgames,
   xelor,
   womxn,
+  alexa,
   infinity,
   codeinstitute,
   zerotomastery,

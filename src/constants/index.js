@@ -22,6 +22,7 @@ import {
     vgames,
     womxn,
     xelor,
+    alexa,
     infinity,
     codeinstitute,
     zerotomastery,
@@ -267,6 +268,28 @@ import {
       image: womxn,
       repo: 'https://github.com/CarolinaCobo/womxn-femmetech-mentorship',
       demo: 'https://carolinacobo.github.io/womxn-femmetech-mentorship/index.html',
+    },
+    {
+      id: 'project-6',
+      name: 'Alexa',
+      description: 'A business website for an author',
+      tags: [
+        {
+          name: 'react',
+          color: 'blue-text-gradient',
+        },
+        {
+          name: 'tailwind',
+          color: 'green-text-gradient',
+        },
+        {
+          name: 'others',
+          color: 'pink-text-gradient',
+        },
+      ],
+      image: alexa,
+      repo: 'https://github.com/VTwin90/alexa',
+      demo: 'https://alexa-author.onrender.com/',
     },
   ];
   
