@@ -30,6 +30,7 @@ const Contact = () => {
         icon: 'error',
         title: 'Oops...',
         text: 'Please fill in all fields before sending the form.',
+        confirmButtonColor: '#292929',
       });
       return;
     }
@@ -41,6 +42,7 @@ const Contact = () => {
         icon: 'error',
         title: 'Oops...',
         text: 'Please enter a valid email address.',
+        confirmButtonColor: '#292929',
       });
       return;
     }
@@ -69,6 +71,7 @@ const Contact = () => {
             icon: 'success',
             title: 'Thank you!',
             text: 'I will get back to you as soon as possible.',
+            confirmButtonColor: '#292929',
           });
 
           setForm({
@@ -84,6 +87,7 @@ const Contact = () => {
             icon: 'error',
             title: 'Oops...',
             text: 'Something went wrong. Please try again.',
+            confirmButtonColor: '#292929',
           });
         }
       );
