@@ -7,6 +7,7 @@ import logo from './logo/logo.png';
 import logotext from './logo/logo_text.png';
 
 import vanja from './personal/vanja.png';
+import cv from './personal/vanjatorp_cv.pdf';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -57,6 +58,7 @@ export {
   logo,
   logotext,
   vanja,
+  cv,
   backend,
   ux,
   frontend,

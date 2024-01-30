@@ -7,7 +7,7 @@ import {
   import { styles } from '../styles';
   import { experiences } from '../constants';
   import { SectionWrapper } from '../hoc';
-  import { download, downloadHover, resume } from '../assets';
+  import { download, downloadHover, resume, cv } from '../assets';
   import { textVariant } from '../utils/motion';
   
   const ExperienceCard = ({ experience }) => (
@@ -102,7 +102,7 @@ import {
                 ease-in-out"
                 onClick={() =>
                   window.open(
-                    'resume link', //paste the link to your resume here
+                    cv, //paste the link to your resume here
                     '_blank'
                   )
                 }
