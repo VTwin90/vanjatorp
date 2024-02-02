@@ -14,6 +14,7 @@ import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import creativity_resourcefulness from './icons/creativity_resourcefulness.png';
 import github from './icons/github.png';
+import linkedin from './icons/linkedin.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
@@ -65,6 +66,7 @@ export {
   frontend,
   creativity_resourcefulness,
   github,
+  linkedin,
   close,
   download,
   downloadHover,

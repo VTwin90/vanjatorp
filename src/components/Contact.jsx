@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover, github } from '../assets';
+import { send, sendHover, github, linkedin } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -189,6 +189,23 @@ const Contact = () => {
                 <img
                   src={github}
                   alt="source code"
+                  className="w-4/5 h-4/5 object-contain"
+                />
+              </div>
+            </div>
+          </div>
+          <div type="button"
+            className="absolute bottom-0 p-10 w-full 
+            flex-col rounded-b-[24px] z-20">
+            <div className="absolute inset-0 flex justify-center pl-32 m-3">
+              <div
+                onClick={() => window.open("https://www.linkedin.com/in/vanja-torp/", '_blank')}
+                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
+                  flex justify-center items-center cursor-pointer
+                  sm:opacity-[0.9] opacity-[0.8]">
+                <img
+                  src={linkedin}
+                  alt="linkedin social"
                   className="w-4/5 h-4/5 object-contain"
                 />
               </div>
