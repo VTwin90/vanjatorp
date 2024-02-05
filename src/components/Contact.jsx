@@ -151,70 +151,57 @@ const Contact = () => {
               border-none font-medium resize-none"
             />
           </label>
-
-          <button
-            type="submit"
-            className="live-demo flex justify-center sm:gap-4 
-            gap-3 sm:text-[20px] text-[16px] text-timberWolf 
-            font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[130px] sm:h-[50px] 
-            w-[100px] h-[45px] rounded-[10px] bg-night 
-            hover:bg-battleGray hover:text-eerieBlack 
-            transition duration-[0.2s] ease-in-out"
-            onMouseOver={() => {
-              document
-                .querySelector('.contact-btn')
-                .setAttribute('src', sendHover);
-            }}
-            onMouseOut={() => {
-              document.querySelector('.contact-btn').setAttribute('src', send);
-            }}>
-            {loading ? 'Sending' : 'Send'}
-            <img
-              src={send}
-              alt="send"
-              className="contact-btn sm:w-[26px] sm:h-[26px] 
-              w-[23px] h-[23px] object-contain"
-            />
-          </button>
-          <div type="button"
-            className="absolute bottom-0 p-10 w-full 
-            flex-col rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-center m-3">
-              <div
-                onClick={() => window.open("https://github.com/VTwin90/", '_blank')}
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]">
-                <img
-                  src={github}
-                  alt="github social"
-                  className="sm:w-[26px] sm:h-[26px] 
-                  w-[23px] h-[23px] object-contain"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div type="button"
-            className="absolute bottom-0 p-10 w-full 
-            flex-col rounded-b-[24px] z-20">
-            <div className="absolute inset-0 flex justify-center pl-32 m-3">
-              <div
-                onClick={() => window.open("https://www.linkedin.com/in/vanja-torp/", '_blank')}
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]">
-                <img
-                  src={linkedin}
-                  alt="linkedin social"
-                  className="sm:w-[26px] sm:h-[26px] 
-                  w-[23px] h-[23px] object-contain"
-                />
-              </div>
-            </div>
-          </div>
+          <div className="flex flex-col items-center">
+            <button
+              type="submit"
+              className="live-demo flex justify-center sm:gap-4 
+              gap-3 sm:text-[20px] text-[16px] text-timberWolf 
+              font-bold font-beckman items-center py-5
+              whitespace-nowrap sm:w-[130px] sm:h-[50px] 
+              w-[100px] h-[45px] rounded-[10px] bg-night 
+              hover:bg-battleGray hover:text-eerieBlack 
+              transition duration-[0.2s] ease-in-out"
+              onMouseOver={() => {
+                document
+                  .querySelector('.contact-btn')
+                  .setAttribute('src', sendHover);
+              }}
+              onMouseOut={() => {
+                document.querySelector('.contact-btn').setAttribute('src', send);
+              }}>
+              {loading ? 'Sending' : 'Send'}
+              <img
+                src={send}
+                alt="send"
+                className="contact-btn sm:w-[26px] sm:h-[26px] 
+                w-[23px] h-[23px] object-contain"
+              />
+            </button>
+          </div>  
         </form>
+        <div className="flex items-center justify-center mt-4">
+          <div
+            onClick={() => window.open("https://github.com/VTwin90/", '_blank')}
+            className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer sm:opacity-[0.9] opacity-[0.8] mr-4"
+          >
+            <img
+              src={github}
+              alt="github social"
+              className="sm:w-[26px] sm:h-[26px] w-[23px] h-[23px] object-contain"
+            />
+          </div>
+
+          <div
+            onClick={() => window.open("https://www.linkedin.com/in/vanja-torp/", '_blank')}
+            className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer sm:opacity-[0.9] opacity-[0.8]"
+          >
+            <img
+              src={linkedin}
+              alt="linkedin social"
+              className="sm:w-[26px] sm:h-[26px] w-[23px] h-[23px] object-contain"
+            />
+          </div>
+        </div>
       </motion.div>
     </div>
   );
