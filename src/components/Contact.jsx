@@ -178,22 +178,24 @@ const Contact = () => {
             />
           </button>
           <div type="button"
-            className="absolute bottom-0 p-10 justify-start w-full 
+            className="absolute bottom-0 p-10 w-full 
             flex-col rounded-b-[24px] z-20">
             <div className="absolute inset-0 flex justify-center m-3">
               <div
-                onClick={() => window.open("https://github.com/VTwin90", '_blank')}
+                onClick={() => window.open("https://github.com/VTwin90/", '_blank')}
                 className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
                   flex justify-center items-center cursor-pointer
                   sm:opacity-[0.9] opacity-[0.8]">
                 <img
                   src={github}
-                  alt="source code"
-                  className="w-4/5 h-4/5 object-contain"
+                  alt="github social"
+                  className="sm:w-[26px] sm:h-[26px] 
+                  w-[23px] h-[23px] object-contain"
                 />
               </div>
             </div>
           </div>
+
           <div type="button"
             className="absolute bottom-0 p-10 w-full 
             flex-col rounded-b-[24px] z-20">
@@ -206,7 +208,8 @@ const Contact = () => {
                 <img
                   src={linkedin}
                   alt="linkedin social"
-                  className="w-4/5 h-4/5 object-contain"
+                  className="sm:w-[26px] sm:h-[26px] 
+                  w-[23px] h-[23px] object-contain"
                 />
               </div>
             </div>
