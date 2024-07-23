@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className="-mt-[6rem]">
+    <div className="-mt-[4rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -35,7 +35,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
+        className="mt-5 text-taupe text-[18px] max-w-3xl leading-[30px]">
         I'm a versatile individual on a transformative journey into the dynamic world of technology 
         with a passion for tech and love for design. With degrees from Scotland, 
         I've cultivated a love for growth and thrive beyond comfort zones. 
